@@ -1,7 +1,7 @@
 ## SQL Projects
 This repository contains various SQL projects for learning.
 
-The first exercise goes through creation of tables, insertion of data and basic queries around aggregations, select statements and conditions on a Sales database sample.
+### The first exercise goes through creation of tables, insertion of data and basic queries around aggregations, select statements and conditions on a Sales database sample.
 
 Deliverables:
 
@@ -25,7 +25,7 @@ Deliverables:
 
 
 
-The second exercise saved as' ASSIGNMENT 001' is a working on the classicmodels db which is a sample database from mySQL. The exercise requires implemetation of basic queries and aggregations icluding creating of joins, views and conditions that include the where and having clause.
+### The second exercise saved as' ASSIGNMENT 001' is a working on the classicmodels db which is a sample database from mySQL. The exercise requires implemetation of basic queries and aggregations icluding creating of joins, views and conditions that include the where and having clause.
 Deliverables :
 
 -- Question 1 : What is the total number of orders placed in the year 2005?
@@ -52,7 +52,7 @@ Deliverables :
 
 
 
-The third exercise saved as 'ASSIGNMENT 002' in reference with the classicmodels database where we use implementation of advanced queries and aggregations including views , unions and CTEs to manipulate data to satisfy our deliverables.
+### The third exercise saved as 'ASSIGNMENT 002' in reference with the classicmodels database where we use implementation of advanced queries and aggregations including views , unions and CTEs to manipulate data to satisfy our deliverables.
 
 Deliverables:
 
