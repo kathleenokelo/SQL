@@ -1,3 +1,7 @@
+-- Basic SQL queries on sample data
+
+
+
 DROP DATABASE IF EXISTS SalesDB;
 CREATE DATABASE SalesDB;
 USE SalesDB;
@@ -51,12 +55,16 @@ INSERT INTO Sales (CustomerID, ProductID, SaleDate, Quantity) VALUES
 
 -- Calculate the average quantity
 select avg(Quantity) AS average_quantity from sales;
+
 -- Calculate the number of sales made
 select count(*) as number_of_sales from sales;
+
 -- Calculate the maximum quantity sold
 select max(Quantity) as max_quantity from sales; 
+
 -- Calculate the minimum quantity sold
 select min(Quantity) as min_quantity from sales;
+
 -- Calculate the total sales made
 select sum(Quantity*Price) AS total_sales from sales
 join products on products.ProductID = sales.ProductID;
@@ -79,6 +87,7 @@ join sales on products.ProductID = sales.ProductID;
 select products.ProductName,sum(sales.Quantity) as total_qty_sold_by_product from products
 join sales on products.ProductID = sales.ProductID 
 group by products.ProductName;
+
 
 -- Calculate the Average Quantity Sold per Customer
 select avg(sales.Quantity),customers.FirstName from sales
