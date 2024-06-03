@@ -52,7 +52,7 @@ Deliverables :
 
 
 
-### The third exercise saved as 'ASSIGNMENT 002' in reference with the classicmodels database where we use implementation of advanced queries and aggregations including views , unions and CTEs to manipulate data to satisfy our deliverables.
+### The third exercise saved as 'ASSIGNMENT 002' is in reference with the classicmodels database where we use implementation of advanced queries and aggregations including views , unions and CTEs to manipulate data to satisfy our deliverables.
 
 Deliverables:
 
