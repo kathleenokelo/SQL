@@ -23,6 +23,8 @@ Deliverables:
 
 -- Customers with Total Sales Amount Greater Than $1500
 
+
+
 The second exercise saved as' ASSIGNMENT 001' is a working on the classicmodels db which is a sample database from mySQL. The exercise requires implemetation of basic queries and aggregations icluding creating of joins, views and conditions that include the where and having clause.
 Deliverables :
 
@@ -49,4 +51,27 @@ Deliverables :
 
 
 
-The second and third exercises are in reference with the classicmodels database.
+
+The third exercise saved as 'ASSIGNMENT 002' in reference with the classicmodels database where we use implementation of advanced queries and aggregations including views , unions and CTEs to manipulate data to satisfy our deliverables.
+
+Deliverables:
+
+Question 1: Create a view named high_value_customers that lists the customer number, customer name, and total order amount for customers who have placed orders exceeding $10,000.
+
+Question 2: Find the names of customers who have placed orders for products from the 'Classic Cars' product line.
+
+Question 3: List the employees who work in the office with the maximum number of employees.
+
+Question 4: Write a stored procedure named get_customer_orders that takes a customer number as input and returns the order numbers and order dates for that customer.
+
+Question 5: Write a stored procedure named total_sales_by_employee that takes an employee number as input and returns the total sales amount for that employee.
+
+Question 6: Use a CTE to find the top 3 employees by the number of customers they manage.
+
+Question 7: Use a CTE to find the average payment amount for each customer and list those with an average payment greater than $2000.
+
+Question 8: Create a union query that lists all customer names and employee names.
+
+Question 9: Write a union query to list all office cities and customer cities, making sure there are no duplicates.
+
+Question 10: Create a union query that lists all product codes from the orderdetails table along with the respective order number and indicates whether it is from the 'Classic Cars' or 'Motorcycles' product line
